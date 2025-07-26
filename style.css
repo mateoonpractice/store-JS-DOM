@@ -1,0 +1,30 @@
+.custom_header {
+    background: linear-gradient(90deg, #B572FF 0%, #FF8EA4 100%);
+}
+
+.card-text {
+    height: 3em;              /* Ajusta la altura según lo que necesites */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;    /* Número de líneas visibles */
+    -webkit-box-orient: vertical;
+    white-space: normal;
+}
+
+.product-card {
+    width: 31%;
+    min-width: 300px;
+    margin-bottom: 1rem;
+}
+
+.card-title-ellipsis {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    max-height: 3em;
+    cursor: pointer;
+}
